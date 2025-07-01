@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #fefafa;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header, footer {
+  background-color: #00cfff;
+  color: white;
+  text-align: left;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+#loginContainer, #agendaContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+}
+
+.login-box {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login-box input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.login-box button {
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.formulario {
+  background-color: #dcdcdc;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 800px;
+  gap: 20px;
+}
+
+.form-campos {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-campos input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-botoes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-botoes button {
+  padding: 8px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+#adicionarBtn { background-color: green; }
+#editarBtn    { background-color: orange; }
+#salvarBtn    { background-color: deepskyblue; }
+#cancelarBtn  { background-color: lightgray; color: black; }
+#excluirBtn   { background-color: red; }
+
+.navegacao {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.navegacao button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}

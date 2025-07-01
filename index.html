@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Agenda de Contatos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="loginContainer">
+    <header>AGENDA DE CONTATOS</header>
+    <div class="login-box">
+      <input type="text" id="usuario" placeholder="USUÁRIO" />
+      <input type="password" id="senha" placeholder="SENHA" />
+      <button id="entrarBtn">ENTRAR</button>
+    </div>
+  </div>
+
+  <div id="agendaContainer" style="display:none;">
+    <header>Cadastro de Contato</header>
+
+    <div class="formulario">
+      <div class="form-campos">
+        <input type="text" id="nome" placeholder="Nome" />
+        <input type="text" id="sobrenome" placeholder="Sobrenome" />
+        <input type="text" id="endereco" placeholder="Endereço" />
+        <input type="text" id="telefone" placeholder="Telefone" />
+      </div>
+
+      <div class="form-botoes">
+        <button id="adicionarBtn">INCLUIR</button>
+        <button id="editarBtn">EDITAR</button>
+        <button id="salvarBtn" style="display:none;">SALVAR</button>
+        <button id="cancelarBtn" style="display:none;">CANCELAR</button>
+        <button id="excluirBtn">EXCLUIR</button>
+      </div>
+    </div>
+
+    <div class="navegacao">
+      <button id="primeiroBtn">|&lt;</button>
+      <button id="anteriorBtn">&lt;</button>
+      <button id="proximoBtn">&gt;</button>
+      <button id="ultimoBtn">&gt;|</button>
+    </div>
+
+    <footer>AGENDA DE CONTATOS</footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
